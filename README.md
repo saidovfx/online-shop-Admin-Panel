@@ -1,16 +1,50 @@
-# React + Vite
+Gulakandoz Center  online shop Admin Panel is a web-based dashboard built for store owners and administrators to manage products efficiently. The panel allows you to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Add, edit, and delete products
 
-Currently, two official plugins are available:
+Upload multiple product images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Manage categories
 
-## React Compiler
+Track product availability
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interact directly with customers via WhatsApp orders
 
-## Expanding the ESLint configuration
+The admin panel is designed to be responsive, user-friendly, and fast, using React (Vite) and Firebase for real-time data management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+✨ Features
+
+🔐 Secure Admin Access – Only authorized users can manage products.
+
+➕ Product Management – Add, edit, and delete products with detailed information.
+
+🖼 Image Upload – Upload multiple product images with live previews.
+
+🏷 Category Management – Create, edit, and delete product categories.
+
+💬 Customer Interaction – Place orders via WhatsApp with product details.
+
+📱 Responsive UI – Works perfectly on mobile and desktop screens.
+
+⚡ Fast & Lightweight – Built with Vite for optimized performance.
+
+🧰 Tech Stack
+Technology	Purpose
+React + Vite	Frontend framework & build tool
+React Router DOM	Navigation between pages
+Firebase Firestore	Real-time database for products & categories
+Firebase Storage	Hosting product images
+Tailwind CSS	Styling & responsive design
+Redux / Context API	State management (optional)
+Lucide Icons	Clean SVG icons for UI /src
+ ├── components/      
+ ├── pages/             
+ │    ├── Login.jsx
+ │    ├── ProductList.jsx
+ │    ├── ProductAdd.jsx
+ │    └── ProductEditPage.jsx
+ ├── features/        
+ ├── firebase/          
+ ├── context/           
+ └── App.jsx           
